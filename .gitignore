@@ -1,0 +1,12 @@
+# 编译中间产物
+Source/bin/
+Source/obj/
+
+# 调试符号文件（Assemblies 下的 dll 保留在版本控制内，克隆后即可作为 mod 使用）
+Assemblies/*.pdb
+
+# IDE 与用户本地配置
+.vs/
+.idea/
+*.user
+*.suo

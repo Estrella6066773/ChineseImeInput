@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>1.7临时中文输入法修复补丁</name>
+  <author>Estrella6066</author>
+  <packageId>Estrella6066.chineseImeInput</packageId>
+  <modVersion>1.1.0</modVersion>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>泰南耀斑还是烧到了1.7的环世界。
+本模组用于修复新引擎缺失的中文输入法兼容性问题，使得游戏内可以输入中文，也不会因为使用中文输入法而无法被游戏读取输入指令。
+
+需要Harmony。
+  </description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+</ModMetaData>
